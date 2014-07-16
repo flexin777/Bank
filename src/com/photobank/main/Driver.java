@@ -11,7 +11,8 @@ public class Driver {
 	public static void main(String[] args) {
 		 SessionFactory sessionFactory;
 		 ServiceRegistry serviceRegistry;
-		Configuration configuration = new Configuration();
+
+        Configuration configuration = new Configuration();
 	    configuration.configure();
 	    serviceRegistry = new ServiceRegistryBuilder().applySettings(
 	            configuration.getProperties()).build();
