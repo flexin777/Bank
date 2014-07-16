@@ -23,9 +23,6 @@ public class Driver {
 
 	}
 
-
-
-
         public static void info(Object obj){
             Date date = new Date();
             System.out.println(date + " " +obj.toString());
