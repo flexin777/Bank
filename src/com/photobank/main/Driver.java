@@ -12,6 +12,9 @@ public class Driver {
 	public static void main(String[] args) {
 
          info("hello");
+
+
+
 		 SessionFactory sessionFactory;
 		 ServiceRegistry serviceRegistry;
 
